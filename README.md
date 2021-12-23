@@ -1,8 +1,24 @@
-# Azure Function Java Sample：java-helloworld-fun
+# A Java HelloWorld Azure Function
 
 ## 1. 创建项目
+
+### 1.1 Create a repo on GitHub
+Click "Repositories",then click "New" button,input "java-helloworld-fun", leave all other input as default, click "Create repository".
+
+### 1.2 Create a A Java Azure HelloWorld Function by Maven
 ```console
 $ mvn archetype:generate -DgroupId=com.mwit.javafun -DarchetypeGroupId=com.microsoft.azure -DartifactId=java-helloworld-fun -DarchetypeArtifactId=azure-functions-archetype -Dversion=1.0-SNAPSHOT  -DjavaVersion=8 -DinteractiveMode=false
+```
+
+### 1.3 Init repo 
+```console
+$ echo "# java-helloworld-fun" >> README.md
+$ git init
+$ git add -A
+$ git commit -m "add java helloworld fun"
+$ git branch -M main
+$ git remote add origin https://github.com/maping/java-helloworld-fun.git
+$ git push -u origin main
 ```
 
 ## 2. 修改代码
