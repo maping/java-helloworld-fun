@@ -1,4 +1,4 @@
-# Azure Function Simple Sample：java-helloworld-fun
+# Azure Function Java Sample：java-helloworld-fun
 
 ## 1. 创建项目
 ```console
