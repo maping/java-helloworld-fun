@@ -51,3 +51,8 @@ $ curl -d "Forrest" https://java-helloworld-fun.azurewebsites.net/api/HelloWorld
 Hello, Forrest
 $ func azure functionapp logstream java-helloworld-fun --browser
 ```
+
+## 参考
+1. https://docs.microsoft.com/zh-cn/azure/azure-functions/create-first-function-vs-code-java
+2. https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-java
+
